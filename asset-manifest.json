@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/prodigy-WD-02/static/css/main.8f01c3f0.css",
+    "main.js": "/prodigy-WD-02/static/js/main.d747871d.js",
+    "static/media/pexels-pixabay-206359.jpg": "/prodigy-WD-02/static/media/pexels-pixabay-206359.8b2fdd41df56774a0958.jpg",
+    "index.html": "/prodigy-WD-02/index.html",
+    "main.8f01c3f0.css.map": "/prodigy-WD-02/static/css/main.8f01c3f0.css.map",
+    "main.d747871d.js.map": "/prodigy-WD-02/static/js/main.d747871d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f01c3f0.css",
+    "static/js/main.d747871d.js"
+  ]
+}
