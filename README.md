@@ -3,7 +3,4 @@
 ## How to run the code
 
 In the project directory, you can run:
-### 'npm i'
-then
-### `npm start`
-### `npm test`
+### 'npm i' then ### `npm start`
