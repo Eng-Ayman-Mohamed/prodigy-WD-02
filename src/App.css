@@ -1,0 +1,102 @@
+.app {
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container{
+  text-align: center;
+  display: grid;
+  align-items: center;
+  background-color: #000000;
+  border-radius: 20px;
+  justify-items: center;
+}
+
+.container h1 {
+  font-size: 3rem;
+  color: white;
+  width:inherit;
+}
+
+.container .buttons{
+  gap: 100px; 
+}
+
+.container button {
+  text-align: center;
+background: linear-gradient(to right, #2e95ff, #0061c6);
+border: none;
+color: white;
+font: 400 2rem system-ui;
+padding: 15px 30px;
+border-radius: 10px;
+cursor: pointer;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+
+.container button:hover {
+background: #0053A8;
+position: relative;
+left: 2px;
+top: 2px;
+}
+
+.list{
+  width: 400px;
+  max-height: 150px; 
+  overflow-y: auto;
+  border: 3px solid #ccc; 
+  color: white;
+  border-radius: 10px;
+  
+}
+
+.list .item {
+  list-style-type:square;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  margin-bottom: 3px;
+} 
+
+.list .item:hover{
+  background-color: #0053A8;
+}
+@media screen and (max-width: 500px) {
+  .container button {
+    margin-left:0px;
+    width: 300px;
+  }
+  .container .buttons{
+    display: grid;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  .list{
+    width: auto;
+  }
+
+  .container{
+    height: inherit;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container button {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .list{
+    width: 150px;
+  }
+
+  .list .item {
+    font-size: 12px;
+  }
+}
